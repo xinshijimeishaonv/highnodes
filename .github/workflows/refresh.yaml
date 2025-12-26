@@ -1,0 +1,44 @@
+name: Generate and Commit File
+
+on:
+  schedule:
+    - cron: 0 */6 * * *
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        pip3 install pyYAML requests tqdm
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        
+    - name: Collect proxies
+      run: |
+        python -u subscribe/collect.py -d 500 -o -s
+        
+    - name: Configure Git
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions@github.com"
+        
+    - name: Commit and push changes
+      run: |
+        git add ./data
+        git commit -m "Add generated output.yaml"
+        git push -f
+
+    - name: Delete
+      uses: Mattraks/delete-workflow-runs@v2
+      with:
+        retain_days: 0
+        keep_minimum_runs: 0
