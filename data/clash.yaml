@@ -1,369 +1,378 @@
 proxies:
-  - {name: 🇸🇬 试用节点-新加坡, server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 5606fa32-5362-468e-99d0-d144b7a82f1a, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1K, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: F3-FHY, server: jp.fastsoonlink.com, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: O2-HVN, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: C3-CUR, server: empty.node, port: 443, type: trojan, password: 252b8848-e18e-411f-83fd-49804f33a4e5, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 0Z-HMG, server: empty.node, port: 443, type: trojan, password: 693217ca-1bfb-4da1-8594-0e4ed2fe8fcc, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国洛杉矶-1C, server: hs1.0101.pw, port: 8444, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hs1.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: SQ-FIR, server: tw.fastsoonlink.com, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: CS-QIH, server: empty.node, port: 443, type: trojan, password: d32b45dc-fdb5-4e44-a5c8-48ed44d25de0, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: JS-GQA, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1C, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 213cb875-6a72-4284-9c01-9f1addff8baf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度 1 X1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: a9130730-de38-4f62-87ea-90e29e9209be, udp: true}
-  - {name: O2-QZR, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: EJ-WNT, server: empty.node, port: 443, type: trojan, password: 551b188a-64f8-4e0c-81f5-0af0d18a186f, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: N9-HAL, server: empty.node, port: 443, type: trojan, password: 9a7394dd-5718-46db-8cd3-34d8a6d85809, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡解锁 1 X1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a9130730-de38-4f62-87ea-90e29e9209be, udp: true}
-  - {name: 🇲🇽 墨西哥 1 X1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: a9130730-de38-4f62-87ea-90e29e9209be, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 8d42766f-e497-4d50-8852-6c55f793c062, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: SQ-BAH, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: PK-NZQ, server: empty.node, port: 443, type: trojan, password: d507fe4f-ef8f-4909-8290-6ea0f9134a40, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: QR-AGY, server: empty.node, port: 443, type: trojan, password: fa3580e2-ba09-46bc-999a-f5fe6bb10263, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-1H, server: hxg5.0101.pw, port: 8444, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hxg5.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 抗封锁 中转 节点 安全稳定-1D, server: hk01.0101.pw, port: 1807, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hk01.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: RH-MKO, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: 🇳🇱 荷兰-1C, server: hhl.0101.pw, port: 8444, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hhl.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-1E, server: hxg1.0101.pw, port: 8444, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hxg1.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-1B, server: hxg5.0101.pw, port: 8444, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hxg5.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: ZQ-HFT, server: empty.node, port: 443, type: trojan, password: cb9c5a4c-0310-4654-adf5-1691ecae8d86, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: SQ-LBK, server: vn.fastsoonlink.com, port: 40021, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NzllYjlkOGE2MWMxY2EwZWUwNmNkZjMwNjEyZGJjMjY=:ZGUxZTYxMTMtMDI0YS00ZTMwLWJjN2QtZWE0MjljMmM=, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: OT-NFA, server: empty.node, port: 443, type: trojan, password: a270c1ab-762b-4fac-bf9f-d2ec44863a7c, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: IR-AES, server: empty.node, port: 443, type: trojan, password: d535361d-1806-44d3-939a-7f31526fb4ee, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: WR-BZA, server: empty.node, port: 443, type: trojan, password: ab4eaa57-9856-4b0a-ab5c-997b54d97924, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: YJ-QSV, server: empty.node, port: 443, type: trojan, password: ddc78000-d8c9-4c83-99f1-0c144e73c570, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: WI-DNG, server: empty.node, port: 443, type: trojan, password: 0a102017-5605-4c59-a08c-f22cb72666c4, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: JS-EJW, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: F3-KRU, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: RH-OIU, server: jp.fastsoonlink.com, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: RH-ADI, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: c7fc78b0-c054-43cb-9725-666e0ba47917, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1M, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: JS-YVI, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: LY-GWI, server: empty.node, port: 443, type: trojan, password: 35c44f59-6e40-49b2-87f1-296a761c3130, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1L, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: JS-LQO, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: RH-RSM, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: JR-KFG, server: empty.node, port: 443, type: trojan, password: 260bb509-43b7-4f23-9ea0-cc4123b20cbf, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: RH-CDF, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1C, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: c7fc78b0-c054-43cb-9725-666e0ba47917, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: IE-JFQ, server: empty.node, port: 443, type: trojan, password: 5216fd25-6923-49f5-861a-df09d9a4a1e9, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: SQ-YFR, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇾 F3-OMY, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: F3-MAV, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: 5K-EON, server: empty.node, port: 443, type: trojan, password: f0d51898-1c02-4fbe-bb52-f0b227696927, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: BA-KBD, server: empty.node, port: 443, type: trojan, password: da28428d-1691-4420-a08a-4ee93ed2f7c5, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: O2-LJA, server: jp.fastsoonlink.com, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1B, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 15873205-7ef3-4833-8ae8-e274795451b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: O2-JWR, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾解锁 1 X1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a9130730-de38-4f62-87ea-90e29e9209be, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 43-MZR, server: empty.node, port: 443, type: trojan, password: dc5f0120-18e0-4923-8470-874a41afcc15, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1D, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: d4f2d2ed-d8f2-4cf3-92d1-6731055f9815, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: O2-ZPD, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: 🇭🇰 香港 1 X1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a9130730-de38-4f62-87ea-90e29e9209be, udp: true}
-  - {name: 🇦🇺 AU-YIN, server: empty.node, port: 443, type: trojan, password: 21575ad5-2547-40da-a88c-d4469304407d, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1D, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: d4f2d2ed-d8f2-4cf3-92d1-6731055f9815, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: RH-HKC, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: W4-GZC, server: empty.node, port: 443, type: trojan, password: 489670ac-c606-47a9-9990-a179860b5f92, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西 1 X1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: a9130730-de38-4f62-87ea-90e29e9209be, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1A, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: SQ-PDJ, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 8d42766f-e497-4d50-8852-6c55f793c062, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国洛杉矶-1D, server: hs1.0101.pw, port: 8444, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hs1.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: JS-RFP, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: F3-HMW, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1J, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 8d42766f-e497-4d50-8852-6c55f793c062, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: F3-UVX, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: 🇨🇦 加拿大-1B, server: hjnd.0101.pw, port: 8444, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hjnd.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: PZ-ONF, server: empty.node, port: 443, type: trojan, password: b2f58d8e-696f-4959-8bba-e7a18838728c, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1D, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: d4f2d2ed-d8f2-4cf3-92d1-6731055f9815, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: F3-EUF, server: tw.fastsoonlink.com, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1A, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: a54db3df-944a-40ad-9d88-b9b06b66c0e1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国 | 01-1A, server: jpa1softbank.fengwio.top, port: 50002, type: trojan, password: f2b34ea2-82a3-44d6-88df-5970387923e4, sni: go.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: O2-UXL, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: 🇺🇦 O2-FUA, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1A, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: a54db3df-944a-40ad-9d88-b9b06b66c0e1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 93-KNA, server: empty.node, port: 443, type: trojan, password: 12f6a865-b62e-4c9f-98b6-5a94ff03a456, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1A, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: a54db3df-944a-40ad-9d88-b9b06b66c0e1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇭🇰 香港-1A, server: hxg1.0101.pw, port: 8444, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hxg1.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: CU-RFH, server: empty.node, port: 443, type: trojan, password: a9526495-9f2b-4457-8e89-b366abb043de, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: JS-IYG, server: vn.fastsoonlink.com, port: 40021, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NzllYjlkOGE2MWMxY2EwZWUwNmNkZjMwNjEyZGJjMjY=:YjZiNWQyYmItZjJiMS00NDk5LWJjNjYtNjljOGU0MzY=, udp: true}
-  - {name: 抗封锁 中转 节点 安全稳定-1A, server: hk01.0101.pw, port: 1807, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hk01.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 试用节点-台湾, server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 5606fa32-5362-468e-99d0-d144b7a82f1a, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: SQ-VSA, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: O2-GBN, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 8d42766f-e497-4d50-8852-6c55f793c062, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 加拿大-1C, server: hjnd.0101.pw, port: 8444, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hjnd.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 试用会员可用 慢速节点-1C, server: dg3.0101.pw, port: 1084, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: dg3.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: PJ-XER, server: empty.node, port: 443, type: trojan, password: a48ef17d-3356-4cf3-9c34-d4b00dbfb53e, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: IH-JTO, server: empty.node, port: 443, type: trojan, password: 27471d9b-576a-4998-a7df-6057c0b618b9, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: JS-JUV, server: jp.fastsoonlink.com, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: SQ-FGX, server: frk.fastsoonlink.com, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: 🇫🇮 芬兰-1B, server: hfl.0101.pw, port: 8444, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hfl.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: O2-WJN, server: tw.fastsoonlink.com, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: RH-HVD, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: JS-HUL, server: frk.fastsoonlink.com, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: 0K-GFQ, server: empty.node, port: 443, type: trojan, password: 4db5dc46-d16f-4a32-9d98-ad5bbf32ef5f, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: GI-UHN, server: empty.node, port: 443, type: trojan, password: 81460b52-b815-4396-a5cf-f1360360b1f2, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: RH-CXN, server: tw.fastsoonlink.com, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: MP-FZV, server: empty.node, port: 443, type: trojan, password: d4c80c99-0d4a-4247-a419-7c76e78b1328, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 试用一小时2G, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 5606fa32-5362-468e-99d0-d144b7a82f1a, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-1F, server: hxg5.0101.pw, port: 8444, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hxg5.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: c7fc78b0-c054-43cb-9725-666e0ba47917, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国洛杉矶-1B, server: hs1.0101.pw, port: 8444, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hs1.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: c7fc78b0-c054-43cb-9725-666e0ba47917, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: IF-OZP, server: empty.node, port: 443, type: trojan, password: 2a402e57-42b5-4c87-a064-62e0078d21d5, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1C, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 213cb875-6a72-4284-9c01-9f1addff8baf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: SQ-ZNK, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: JS-KRC, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: 4S-DWR, server: empty.node, port: 443, type: trojan, password: f0b8242c-042d-4123-8cd9-37c32f350d77, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 荷兰-1A, server: hhl.0101.pw, port: 8444, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hhl.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇦 加拿大-1D, server: hjnd.0101.pw, port: 8444, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hjnd.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: JS-GDX, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: 🇺🇸 美国洛杉矶-1A, server: hs1.0101.pw, port: 8444, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hs1.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 8d42766f-e497-4d50-8852-6c55f793c062, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
-  - {name: LX-IRO, server: empty.node, port: 443, type: trojan, password: 21ac6322-dd30-4a39-aef7-d4beacea71ce, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 SG-CBE, server: empty.node, port: 443, type: trojan, password: 04187b85-9373-4165-a8f9-e782d3c565e9, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: GD-AHQ, server: empty.node, port: 443, type: trojan, password: 854bda30-de91-49f4-9a0f-016072ce93ed, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: P3-CEU, server: empty.node, port: 443, type: trojan, password: 7c44e058-f962-4289-ba8f-08f0bb664477, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: SQ-BZX, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: 🇭🇰 香港-1C, server: hxg1.0101.pw, port: 8444, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hxg1.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: RH-EUL, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: F3-MVQ, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: O2-QUS, server: vn.fastsoonlink.com, port: 40021, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NzllYjlkOGE2MWMxY2EwZWUwNmNkZjMwNjEyZGJjMjY=:MGVkZTZlMDQtNmE4YS00MWFlLTk4NDktODliZDZiZjQ=, udp: true}
-  - {name: SQ-NHP, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1A, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: a54db3df-944a-40ad-9d88-b9b06b66c0e1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: J8-CVP, server: empty.node, port: 443, type: trojan, password: 6f55d727-45e3-4dc9-9593-ea1d935800fc, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇮 芬兰-1D, server: hfl.0101.pw, port: 8444, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hfl.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: RH-NOF, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: JS-KVN, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: G0-TDU, server: empty.node, port: 443, type: trojan, password: 81a790b0-a424-4e2a-8e01-ca1f987e4783, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | 01-1B, server: jpa1softbank.fengwio.top, port: 50002, type: trojan, password: 0ee32d0f-3d01-4566-bba1-78d9a43775f4, sni: go.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: O2-RFQ, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: F3-PRO, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: PH-NPF, server: empty.node, port: 443, type: trojan, password: bce7b309-7206-45fe-9589-e4c393954303, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: OU-HFD, server: empty.node, port: 443, type: trojan, password: 89c1abce-fd25-4870-86cb-456418368a5e, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: O2-AYF, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: 🇨🇦 加拿大-1A, server: hjnd.0101.pw, port: 8444, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hjnd.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: AA-CFP, server: empty.node, port: 443, type: trojan, password: d0461697-6d34-4587-b200-b76e9da4a1bc, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: OP-UCY, server: empty.node, port: 443, type: trojan, password: 529ae260-8798-445a-8d01-2c5c39a128e3, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: O2-OYL, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: DQ-IGW, server: empty.node, port: 443, type: trojan, password: dbf3167b-5821-4d70-9ff8-f27cefac087d, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: c7fc78b0-c054-43cb-9725-666e0ba47917, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇸 冰岛 1 X1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: a9130730-de38-4f62-87ea-90e29e9209be, udp: true}
-  - {name: JS-PDB, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: c7fc78b0-c054-43cb-9725-666e0ba47917, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1B, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 15873205-7ef3-4833-8ae8-e274795451b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: JS-KTM, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: AZ-SNJ, server: empty.node, port: 443, type: trojan, password: a652d0e0-d1b1-4bcf-858c-fd9a6b4fe232, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1D, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: d4f2d2ed-d8f2-4cf3-92d1-6731055f9815, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: F3-YTX, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: c7fc78b0-c054-43cb-9725-666e0ba47917, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-1D, server: hxg5.0101.pw, port: 8444, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hxg5.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 5P-IMC, server: empty.node, port: 443, type: trojan, password: d53e04a8-d137-43a6-94aa-b8298a1a2895, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: SQ-SJW, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: JS-HSL, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: F3-NRV, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: 8B-GPS, server: empty.node, port: 443, type: trojan, password: 69ebdaaf-535a-4f96-bb1d-bc121e439138, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: SQ-NYD, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: SQ-DLY, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: O2-UWL, server: frk.fastsoonlink.com, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: 🇰🇷 韩国 1 X1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: a9130730-de38-4f62-87ea-90e29e9209be, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1C, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 213cb875-6a72-4284-9c01-9f1addff8baf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: F3-CIQ, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: c7fc78b0-c054-43cb-9725-666e0ba47917, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 中转美国1 X1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: a9130730-de38-4f62-87ea-90e29e9209be, udp: true}
-  - {name: EO-DPU, server: empty.node, port: 443, type: trojan, password: d59c0d70-a2c5-4ca3-9dfb-c725499b665b, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 19-CJB, server: empty.node, port: 443, type: trojan, password: e165c119-ed58-4bed-8e01-67102266b17c, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: JS-MFA, server: tw.fastsoonlink.com, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: 🇳🇱 荷兰-1B, server: hhl.0101.pw, port: 8444, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hhl.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1F, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: AF-VBR, server: empty.node, port: 443, type: trojan, password: c17ff081-20bd-4068-a50a-5a5e858fc125, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1B, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 15873205-7ef3-4833-8ae8-e274795451b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: J5-LPQ, server: empty.node, port: 443, type: trojan, password: 8126b177-7905-40cd-8a5e-b145150acb3e, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 荷兰-1D, server: hhl.0101.pw, port: 8444, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hhl.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: M7-LJF, server: empty.node, port: 443, type: trojan, password: 2fe05359-0616-4b63-a3a4-81005ad1d952, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 2N-LTA, server: empty.node, port: 443, type: trojan, password: e26dc4c0-06d8-4cec-a64b-c293b5f17c0a, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP | 01-1B, server: jpa1softbank.fengwio.top, port: 30005, type: vless, uuid: 0ee32d0f-3d01-4566-bba1-78d9a43775f4, tls: true, reality-opts: {public-key: fTZLGGyhk2ytzqhs7HoGEa2SUaDcJzqsv9YEC3kv2EM, short-id: a40646b3}, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1D, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: SQ-TAI, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: O2-TCG, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: 🇯🇵 日本1 X1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: a9130730-de38-4f62-87ea-90e29e9209be, udp: true}
-  - {name: 抗封锁 中转 节点 安全稳定-1C, server: hk01.0101.pw, port: 1807, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hk01.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: SQ-XGR, server: jp.fastsoonlink.com, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: 试用会员可用 慢速节点-1D, server: dg3.0101.pw, port: 1084, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: dg3.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: SQ-VHP, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
-  - {name: ZE-DJU, server: empty.node, port: 443, type: trojan, password: 6484da49-869d-4c9e-a30a-e50b25f220b0, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: RH-WLJ, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: 试用会员可用 慢速节点-1A, server: dg3.0101.pw, port: 1084, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: dg3.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-1G, server: hxg1.0101.pw, port: 8444, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hxg1.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: c7fc78b0-c054-43cb-9725-666e0ba47917, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: BI-QZV, server: empty.node, port: 443, type: trojan, password: 77b4e3e6-4651-4bcd-9c9a-a7e53bdad797, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: RH-SMZ, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: RH-PRG, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: 8A-HYF, server: empty.node, port: 443, type: trojan, password: 428cff15-4015-428c-9e99-2ab57eb5db60, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: RH-FHL, server: frk.fastsoonlink.com, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: PQ-QVI, server: empty.node, port: 443, type: trojan, password: 3b242863-c921-485f-b91f-490dd630c5a8, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1B, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 15873205-7ef3-4833-8ae8-e274795451b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: RH-TMB, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
-  - {name: 🇫🇮 芬兰-1A, server: hfl.0101.pw, port: 8444, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hfl.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: A7-SDM, server: empty.node, port: 443, type: trojan, password: ad540b56-1e67-4629-9df5-c7f963ad5d16, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: F3-NLT, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1G, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: O2-GCR, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1E, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: c7fc78b0-c054-43cb-9725-666e0ba47917, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 试用节点-美国, server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 5606fa32-5362-468e-99d0-d144b7a82f1a, udp: true}
-  - {name: 🇯🇵 JP | 01-1A, server: jpa1softbank.fengwio.top, port: 30005, type: vless, uuid: f2b34ea2-82a3-44d6-88df-5970387923e4, tls: true, reality-opts: {public-key: fTZLGGyhk2ytzqhs7HoGEa2SUaDcJzqsv9YEC3kv2EM, short-id: a40646b3}, servername: www.cloudflare.com, client-fingerprint: safari, network: tcp, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1H, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇮 芬兰-1C, server: hfl.0101.pw, port: 8444, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hfl.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: JS-HNC, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: b6b5d2bb-f2b1-4499-bc66-69c8e4364d01, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1B, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: F3-EFP, server: vn.fastsoonlink.com, port: 40021, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NzllYjlkOGE2MWMxY2EwZWUwNmNkZjMwNjEyZGJjMjY=:OTZiZjY5YTUtYzdmYy00ZmU5LTgyYjUtYjc4ZmEyNWM=, udp: true}
-  - {name: 🇯🇵 试用节点-日本, server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 5606fa32-5362-468e-99d0-d144b7a82f1a, udp: true}
-  - {name: 试用会员可用 慢速节点-1B, server: dg3.0101.pw, port: 1084, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: dg3.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: F3-LIR, server: frk.fastsoonlink.com, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1C, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 213cb875-6a72-4284-9c01-9f1addff8baf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: EZ-BPA, server: empty.node, port: 443, type: trojan, password: 24397bfc-abd0-4f7d-bc0c-8916d7f65412, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: SY-CNS, server: empty.node, port: 443, type: trojan, password: 6a1963b8-eebd-4f24-a1f6-3c3d38ed6764, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: c7fc78b0-c054-43cb-9725-666e0ba47917, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1I, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: PC-SEF, server: empty.node, port: 443, type: trojan, password: 3ea054fd-f2fd-4621-8282-38036c3f7668, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: F3-JRA, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 抗封锁 中转 节点 安全稳定-1B, server: hk01.0101.pw, port: 1807, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hk01.0101.pw, skip-cert-verify: false, udp: true}
-  - {name: QN-QIX, server: empty.node, port: 443, type: trojan, password: cfc0a583-557d-4f84-b608-f0f7bba07377, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: c7fc78b0-c054-43cb-9725-666e0ba47917, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: RH-ZTF, server: vn.fastsoonlink.com, port: 40021, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NzllYjlkOGE2MWMxY2EwZWUwNmNkZjMwNjEyZGJjMjY=:NTFlOTcwNDQtYjE5YS00YzdiLWFhMDMtNTU0NTU4YjQ=, udp: true}
+  - {name: GJ-DCZ, server: empty.node, port: 443, type: trojan, password: 8126b177-7905-40cd-8a5e-b145150acb3e, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: LY-TNQ, server: frk.fastsoonlink.com, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: 抗封锁 中转 节点 安全稳定-1C, server: hk01.0101.pw, port: 1807, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hk01.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾解锁 1 X1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 53712bb1-12de-458a-9d6f-26592d298715, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 荷兰-1E, server: hhl.0101.pw, port: 8444, type: hysteria2, password: ea1131d7-88c2-4036-b2ab-894f31ab6b97, auth: ea1131d7-88c2-4036-b2ab-894f31ab6b97, sni: hhl.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: LF-UDT, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: GN-VOZ, server: empty.node, port: 443, type: trojan, password: c17ff081-20bd-4068-a50a-5a5e858fc125, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: EK-GKJ, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: EK-OYG, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: DZ-KHU, server: vn.fastsoonlink.com, port: 40021, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NzllYjlkOGE2MWMxY2EwZWUwNmNkZjMwNjEyZGJjMjY=:OTZiZjY5YTUtYzdmYy00ZmU5LTgyYjUtYjc4ZmEyNWM=, udp: true}
+  - {name: DZ-OEM, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: SB-XMR, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: LY-WRN, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: 🇺🇸 美国 | 01-1A, server: jpa1softbank.fengwio.top, port: 50002, type: trojan, password: 36bfd1f9-dcca-4a3f-b30b-db4c9e3bf5e2, sni: go.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 5def6a46-9b6f-4dd8-b922-88fff458c96e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 试用会员可用 慢速节点-1C, server: dg3.0101.pw, port: 1084, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: dg3.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1M, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 5def6a46-9b6f-4dd8-b922-88fff458c96e, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1C, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: d4f2d2ed-d8f2-4cf3-92d1-6731055f9815, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇺🇸 美国洛杉矶-1D, server: hs1.0101.pw, port: 8444, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hs1.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 中转美国1 X1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 53712bb1-12de-458a-9d6f-26592d298715, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: S9-BWZ, server: empty.node, port: 443, type: trojan, password: 6f55d727-45e3-4dc9-9593-ea1d935800fc, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: DZ-PHS, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: 0A-KQH, server: empty.node, port: 443, type: trojan, password: dbf3167b-5821-4d70-9ff8-f27cefac087d, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: LF-XDR, server: vn.fastsoonlink.com, port: 40021, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NzllYjlkOGE2MWMxY2EwZWUwNmNkZjMwNjEyZGJjMjY=:NTFlOTcwNDQtYjE5YS00YzdiLWFhMDMtNTU0NTU4YjQ=, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 20-IHM, server: empty.node, port: 443, type: trojan, password: d59c0d70-a2c5-4ca3-9dfb-c725499b665b, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 5def6a46-9b6f-4dd8-b922-88fff458c96e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: Y7-LNR, server: empty.node, port: 443, type: trojan, password: 12f6a865-b62e-4c9f-98b6-5a94ff03a456, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇮 芬兰-1D, server: hfl.0101.pw, port: 8444, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hfl.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: KB-KWZ, server: empty.node, port: 443, type: trojan, password: d53e04a8-d137-43a6-94aa-b8298a1a2895, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1C, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1J, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1A, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 15873205-7ef3-4833-8ae8-e274795451b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1L, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: LY-HYS, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: LF-YRI, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: YO-DEP, server: empty.node, port: 443, type: trojan, password: f0b8242c-042d-4123-8cd9-37c32f350d77, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: DZ-ZSA, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1A, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 15873205-7ef3-4833-8ae8-e274795451b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 0b7f1227-3f08-4d9a-853f-9d5bf58590ef, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+  - {name: FC-GIM, server: empty.node, port: 443, type: trojan, password: ab4eaa57-9856-4b0a-ab5c-997b54d97924, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇮 芬兰-1E, server: hfl.0101.pw, port: 8444, type: hysteria2, password: ea1131d7-88c2-4036-b2ab-894f31ab6b97, auth: ea1131d7-88c2-4036-b2ab-894f31ab6b97, sni: hfl.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: EY-HPR, server: empty.node, port: 443, type: trojan, password: d4c80c99-0d4a-4247-a419-7c76e78b1328, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: DZ-XQG, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: DZ-IKT, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 5def6a46-9b6f-4dd8-b922-88fff458c96e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: BX-CIO, server: empty.node, port: 443, type: trojan, password: 69ebdaaf-535a-4f96-bb1d-bc121e439138, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: DZ-XEY, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: 🇮🇸 冰岛 1 X1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 53712bb1-12de-458a-9d6f-26592d298715, udp: true}
+  - {name: XJ-ABQ, server: empty.node, port: 443, type: trojan, password: 2fe05359-0616-4b63-a3a4-81005ad1d952, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: SB-QDU, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: OM-BYH, server: empty.node, port: 443, type: trojan, password: e165c119-ed58-4bed-8e01-67102266b17c, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: V6-ICJ, server: empty.node, port: 443, type: trojan, password: ad540b56-1e67-4629-9df5-c7f963ad5d16, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: ET-QMD, server: empty.node, port: 443, type: trojan, password: d0461697-6d34-4587-b200-b76e9da4a1bc, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 试用一小时2G, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 4da98651-c544-4375-ac60-c0485de6db32, udp: true}
+  - {name: 试用会员可用 慢速节点-1A, server: dg3.0101.pw, port: 1084, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: dg3.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: AR-IDE, server: empty.node, port: 443, type: trojan, password: e26dc4c0-06d8-4cec-a64b-c293b5f17c0a, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 试用会员可用 慢速节点-1B, server: dg3.0101.pw, port: 1084, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: dg3.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: SB-HLC, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: LF-ZDX, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: WM-KMV, server: empty.node, port: 443, type: trojan, password: 24397bfc-abd0-4f7d-bc0c-8916d7f65412, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 5def6a46-9b6f-4dd8-b922-88fff458c96e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: S8-GOE, server: empty.node, port: 443, type: trojan, password: a270c1ab-762b-4fac-bf9f-d2ec44863a7c, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: LF-MKO, server: frk.fastsoonlink.com, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: JD-DNX, server: empty.node, port: 443, type: trojan, password: 0a102017-5605-4c59-a08c-f22cb72666c4, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: EK-IVS, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: LY-GEV, server: empty.node, port: 443, type: trojan, password: 252b8848-e18e-411f-83fd-49804f33a4e5, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 抗封锁 中转 节点 安全稳定-1A, server: hk01.0101.pw, port: 1807, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hk01.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: SB-PHF, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1B, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: a54db3df-944a-40ad-9d88-b9b06b66c0e1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇳🇱 荷兰-1A, server: hhl.0101.pw, port: 8444, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hhl.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: X8-UDH, server: empty.node, port: 443, type: trojan, password: 04187b85-9373-4165-a8f9-e782d3c565e9, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: W4-IHB, server: empty.node, port: 443, type: trojan, password: b2f58d8e-696f-4959-8bba-e7a18838728c, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: GR-RBU, server: empty.node, port: 443, type: trojan, password: 89c1abce-fd25-4870-86cb-456418368a5e, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: EK-IKO, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: 🇺🇸 美国 | 01-1B, server: jpa1softbank.fengwio.top, port: 50002, type: trojan, password: abbc8611-feb6-4c53-a10b-d76223aa3ebe, sni: go.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: LY-KRS, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: 🇺🇸 美国洛杉矶-1E, server: hs1.0101.pw, port: 8444, type: hysteria2, password: ea1131d7-88c2-4036-b2ab-894f31ab6b97, auth: ea1131d7-88c2-4036-b2ab-894f31ab6b97, sni: hs1.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: LF-LYF, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: LY-XDA, server: tw.fastsoonlink.com, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1C, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: d4f2d2ed-d8f2-4cf3-92d1-6731055f9815, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: LY-EDX, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1C, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: d4f2d2ed-d8f2-4cf3-92d1-6731055f9815, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇹🇼 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 0b7f1227-3f08-4d9a-853f-9d5bf58590ef, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: TB-FIS, server: empty.node, port: 443, type: trojan, password: 6484da49-869d-4c9e-a30a-e50b25f220b0, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 荷兰-1C, server: hhl.0101.pw, port: 8444, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hhl.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: KE-OHR, server: empty.node, port: 443, type: trojan, password: 489670ac-c606-47a9-9990-a179860b5f92, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: ZX-ECI, server: empty.node, port: 443, type: trojan, password: dc5f0120-18e0-4923-8470-874a41afcc15, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1B, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: P1-BNP, server: empty.node, port: 443, type: trojan, password: 529ae260-8798-445a-8d01-2c5c39a128e3, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: EK-MRW, server: frk.fastsoonlink.com, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: 🇸🇬 EK-SGP, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: P1-DJU, server: empty.node, port: 443, type: trojan, password: 0fe27212-7fc0-4ad6-b830-f8b1c1c86af4, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-1H, server: hxg5.0101.pw, port: 8444, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hxg5.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: SB-GVP, server: frk.fastsoonlink.com, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: EK-QYU, server: vn.fastsoonlink.com, port: 40021, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NzllYjlkOGE2MWMxY2EwZWUwNmNkZjMwNjEyZGJjMjY=:ZGUxZTYxMTMtMDI0YS00ZTMwLWJjN2QtZWE0MjljMmM=, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1G, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: XT-IQC, server: empty.node, port: 443, type: trojan, password: 6a1963b8-eebd-4f24-a1f6-3c3d38ed6764, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇦 EK-UAQ, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: LY-WRM, server: vn.fastsoonlink.com, port: 40021, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NzllYjlkOGE2MWMxY2EwZWUwNmNkZjMwNjEyZGJjMjY=:MGVkZTZlMDQtNmE4YS00MWFlLTk4NDktODliZDZiZjQ=, udp: true}
+  - {name: LF-WEH, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: TZ-NQF, server: empty.node, port: 443, type: trojan, password: 7c44e058-f962-4289-ba8f-08f0bb664477, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: EK-EZH, server: tw.fastsoonlink.com, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: 🇹🇼 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 0b7f1227-3f08-4d9a-853f-9d5bf58590ef, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: SB-CDY, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: EK-JOV, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: DZ-TWS, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: 🇸🇬 试用节点-新加坡, server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 4da98651-c544-4375-ac60-c0485de6db32, udp: true}
+  - {name: LF-WZV, server: tw.fastsoonlink.com, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: 🇮🇳 印度 1 X1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 53712bb1-12de-458a-9d6f-26592d298715, udp: true}
+  - {name: AM-FBJ, server: empty.node, port: 443, type: trojan, password: 551b188a-64f8-4e0c-81f5-0af0d18a186f, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: EK-KSE, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 8S-ORT, server: empty.node, port: 443, type: trojan, password: fa3580e2-ba09-46bc-999a-f5fe6bb10263, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: LF-IYU, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: F5-HGQ, server: empty.node, port: 443, type: trojan, password: 5216fd25-6923-49f5-861a-df09d9a4a1e9, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1B, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: a54db3df-944a-40ad-9d88-b9b06b66c0e1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 5def6a46-9b6f-4dd8-b922-88fff458c96e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: LF-UVP, server: jp.fastsoonlink.com, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: 抗封锁 中转 节点 安全稳定-1B, server: hk01.0101.pw, port: 1807, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hk01.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1A, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 15873205-7ef3-4833-8ae8-e274795451b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇹🇼 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 0b7f1227-3f08-4d9a-853f-9d5bf58590ef, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 试用节点-台湾, server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 4da98651-c544-4375-ac60-c0485de6db32, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: D9-KPX, server: empty.node, port: 443, type: trojan, password: ddc78000-d8c9-4c83-99f1-0c144e73c570, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: LF-JDZ, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: 🇫🇮 芬兰-1A, server: hfl.0101.pw, port: 8444, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hfl.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 9O-CFM, server: empty.node, port: 443, type: trojan, password: da28428d-1691-4420-a08a-4ee93ed2f7c5, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: PX-THD, server: empty.node, port: 443, type: trojan, password: 3b242863-c921-485f-b91f-490dd630c5a8, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: BC-BAD, server: empty.node, port: 443, type: trojan, password: d535361d-1806-44d3-939a-7f31526fb4ee, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-1C, server: hxg1.0101.pw, port: 8444, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hxg1.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: I4-ETU, server: empty.node, port: 443, type: trojan, password: 77b4e3e6-4651-4bcd-9c9a-a7e53bdad797, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1I, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: SB-JBL, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大-1C, server: hjnd.0101.pw, port: 8444, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hjnd.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇧🇷 巴西 1 X1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 53712bb1-12de-458a-9d6f-26592d298715, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: LY-SVT, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: SB-DPR, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 试用会员可用 慢速节点-1D, server: dg3.0101.pw, port: 1084, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: dg3.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: LF-MCK, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: DZ-MNL, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 0b7f1227-3f08-4d9a-853f-9d5bf58590ef, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: LF-NEU, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1B, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: a54db3df-944a-40ad-9d88-b9b06b66c0e1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇨🇦 加拿大-1E, server: hjnd.0101.pw, port: 8444, type: hysteria2, password: ea1131d7-88c2-4036-b2ab-894f31ab6b97, auth: ea1131d7-88c2-4036-b2ab-894f31ab6b97, sni: hjnd.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: DZ-CHU, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: LY-GCZ, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: 🇭🇰 香港-1I, server: hxg1.0101.pw, port: 8444, type: hysteria2, password: ea1131d7-88c2-4036-b2ab-894f31ab6b97, auth: ea1131d7-88c2-4036-b2ab-894f31ab6b97, sni: hxg1.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: DF-LXJ, server: empty.node, port: 443, type: trojan, password: a652d0e0-d1b1-4bcf-858c-fd9a6b4fe232, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 5def6a46-9b6f-4dd8-b922-88fff458c96e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1D, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 0bd89e1f-fd52-438e-a715-8676ccd76711, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: FP-FIH, server: empty.node, port: 443, type: trojan, password: 693217ca-1bfb-4da1-8594-0e4ed2fe8fcc, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 5def6a46-9b6f-4dd8-b922-88fff458c96e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 抗封锁 中转 节点 安全稳定-1E, server: hk01.0101.pw, port: 1807, type: hysteria2, password: ea1131d7-88c2-4036-b2ab-894f31ab6b97, auth: ea1131d7-88c2-4036-b2ab-894f31ab6b97, sni: hk01.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-1D, server: hxg5.0101.pw, port: 8444, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hxg5.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 1 X1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 53712bb1-12de-458a-9d6f-26592d298715, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 0J-KTO, server: empty.node, port: 443, type: trojan, password: 35c44f59-6e40-49b2-87f1-296a761c3130, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: NS-KBG, server: empty.node, port: 443, type: trojan, password: 3ea054fd-f2fd-4621-8282-38036c3f7668, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: MW-HIT, server: empty.node, port: 443, type: trojan, password: 4db5dc46-d16f-4a32-9d98-ad5bbf32ef5f, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇽 墨西哥 1 X1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 53712bb1-12de-458a-9d6f-26592d298715, udp: true}
+  - {name: LY-LXE, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 1 X1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 53712bb1-12de-458a-9d6f-26592d298715, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大-1B, server: hjnd.0101.pw, port: 8444, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hjnd.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 24-LTH, server: empty.node, port: 443, type: trojan, password: cb9c5a4c-0310-4654-adf5-1691ecae8d86, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-1F, server: hxg5.0101.pw, port: 8444, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hxg5.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: TD-HDX, server: empty.node, port: 443, type: trojan, password: 854bda30-de91-49f4-9a0f-016072ce93ed, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: EK-COX, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: 🇫🇮 芬兰-1B, server: hfl.0101.pw, port: 8444, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hfl.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-1B, server: hxg5.0101.pw, port: 8444, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hxg5.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1D, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 0bd89e1f-fd52-438e-a715-8676ccd76711, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 荷兰-1B, server: hhl.0101.pw, port: 8444, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hhl.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1D, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 0bd89e1f-fd52-438e-a715-8676ccd76711, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: AK-RCP, server: empty.node, port: 443, type: trojan, password: 260bb509-43b7-4f23-9ea0-cc4123b20cbf, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: LY-OWC, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 5def6a46-9b6f-4dd8-b922-88fff458c96e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: AW-EZN, server: empty.node, port: 443, type: trojan, password: 81a790b0-a424-4e2a-8e01-ca1f987e4783, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: LF-IAX, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: DZ-XCL, server: tw.fastsoonlink.com, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: SB-FMZ, server: vn.fastsoonlink.com, port: 40021, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NzllYjlkOGE2MWMxY2EwZWUwNmNkZjMwNjEyZGJjMjY=:M2JlNTI3YTAtOGJlMS00YWEwLTk5NWQtMzAyYTAwNjQ=, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 5def6a46-9b6f-4dd8-b922-88fff458c96e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: SB-IJE, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: SB-ZTN, server: tw.fastsoonlink.com, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: DZ-DJW, server: frk.fastsoonlink.com, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: LY-LWV, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: 🇭🇰 香港-1A, server: hxg1.0101.pw, port: 8444, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hxg1.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-1J, server: hxg5.0101.pw, port: 8444, type: hysteria2, password: ea1131d7-88c2-4036-b2ab-894f31ab6b97, auth: ea1131d7-88c2-4036-b2ab-894f31ab6b97, sni: hxg5.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: LY-HFS, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1A, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1F, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-1E, server: hxg1.0101.pw, port: 8444, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hxg1.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: DZ-FHJ, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: 🇳🇱 荷兰-1D, server: hhl.0101.pw, port: 8444, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hhl.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: DZ-WEQ, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: 🇺🇸 美国洛杉矶-1A, server: hs1.0101.pw, port: 8444, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hs1.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: LY-HPO, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: 🇺🇸 美国洛杉矶-1B, server: hs1.0101.pw, port: 8444, type: hysteria2, password: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, auth: 516c03b6-a529-4c5c-8cf2-338b0d37dbe5, sni: hs1.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1B, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: a54db3df-944a-40ad-9d88-b9b06b66c0e1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: SB-TXM, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1H, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: DZ-NZF, server: jp.fastsoonlink.com, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: EK-FDK, server: jp.fastsoonlink.com, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: PY-LDN, server: empty.node, port: 443, type: trojan, password: d507fe4f-ef8f-4909-8290-6ea0f9134a40, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: EK-SRE, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: ZR-CVL, server: empty.node, port: 443, type: trojan, password: f0d51898-1c02-4fbe-bb52-f0b227696927, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP | 01-1B, server: jpa1softbank.fengwio.top, port: 30005, type: vless, uuid: abbc8611-feb6-4c53-a10b-d76223aa3ebe, tls: true, reality-opts: {public-key: fTZLGGyhk2ytzqhs7HoGEa2SUaDcJzqsv9YEC3kv2EM, short-id: a40646b3}, servername: www.cloudflare.com, client-fingerprint: qq, network: tcp, udp: true}
+  - {name: 🇫🇮 芬兰-1C, server: hfl.0101.pw, port: 8444, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hfl.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇦 SB-UAY, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: Q3-AYB, server: empty.node, port: 443, type: trojan, password: d32b45dc-fdb5-4e44-a5c8-48ed44d25de0, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 试用会员可用 慢速节点-1E, server: dg3.0101.pw, port: 1084, type: hysteria2, password: ea1131d7-88c2-4036-b2ab-894f31ab6b97, auth: ea1131d7-88c2-4036-b2ab-894f31ab6b97, sni: dg3.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大-1A, server: hjnd.0101.pw, port: 8444, type: hysteria2, password: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, auth: 0d365fff-fc7f-4cf9-a15e-ded84810b79d, sni: hjnd.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大-1D, server: hjnd.0101.pw, port: 8444, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hjnd.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: LY-WGJ, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1H, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 826e2c30-4f99-431f-b4a9-9c81789426b6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1D, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国洛杉矶-1C, server: hs1.0101.pw, port: 8444, type: hysteria2, password: 3d636cde-7435-4fd3-821a-a9c7a1d12020, auth: 3d636cde-7435-4fd3-821a-a9c7a1d12020, sni: hs1.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: SB-MEO, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: SB-CDZ, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: 抗封锁 中转 节点 安全稳定-1D, server: hk01.0101.pw, port: 1807, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hk01.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1C, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: d4f2d2ed-d8f2-4cf3-92d1-6731055f9815, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: LF-KQL, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1K, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1D, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: c4030d7b-2f6d-4c63-ac69-ead35c327fe3, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡解锁 1 X1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 53712bb1-12de-458a-9d6f-26592d298715, udp: true}
+  - {name: KU-ACF, server: empty.node, port: 443, type: trojan, password: a9526495-9f2b-4457-8e89-b366abb043de, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-1G, server: hxg1.0101.pw, port: 8444, type: hysteria2, password: ea4b8981-52e4-4e31-8308-14b38b9969d7, auth: ea4b8981-52e4-4e31-8308-14b38b9969d7, sni: hxg1.0101.pw, skip-cert-verify: false, udp: true}
+  - {name: MF-GEK, server: empty.node, port: 443, type: trojan, password: 21ac6322-dd30-4a39-aef7-d4beacea71ce, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1F, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 9cc2969a-1b96-47af-af6a-0bb77d3fbef4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: PK-XRL, server: empty.node, port: 443, type: trojan, password: 3ff8b9d8-c376-4137-994b-bbe61bdeddba, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: DZ-FXT, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 96bf69a5-c7fc-4fe9-82b5-b78fa25cce07, udp: true}
+  - {name: LF-GWP, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: 51e97044-b19a-4c7b-aa03-554558b49635, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 9Y-LXN, server: empty.node, port: 443, type: trojan, password: cfc0a583-557d-4f84-b608-f0f7bba07377, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: LY-NZA, server: jp.fastsoonlink.com, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: 0ede6e04-6a8a-41ae-9849-89bd6bf43607, udp: true}
+  - {name: 🇯🇵 日本1 X1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 53712bb1-12de-458a-9d6f-26592d298715, udp: true}
+  - {name: 🇯🇵 试用节点-日本, server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 4da98651-c544-4375-ac60-c0485de6db32, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: IJ-RXC, server: empty.node, port: 443, type: trojan, password: 21575ad5-2547-40da-a88c-d4469304407d, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1I, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 25ef30ea-3274-4f9e-b288-365268a1707e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: MS-KBA, server: empty.node, port: 443, type: trojan, password: 76fa298d-a255-4351-8b81-bbd2e1a7e39a, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: EK-JAW, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: GY-QLS, server: empty.node, port: 443, type: trojan, password: 81460b52-b815-4396-a5cf-f1360360b1f2, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 9b9723dc-1aac-4f57-a83a-4295a3001a94, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1K, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 7192fa09-980e-4f97-b548-8d018b6e278d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1A, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 15873205-7ef3-4833-8ae8-e274795451b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: SB-NYC, server: jp.fastsoonlink.com, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: 3be527a0-8be1-4aa0-995d-302a0064d91d, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1E, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: FZ-XEW, server: empty.node, port: 443, type: trojan, password: 9a7394dd-5718-46db-8cd3-34d8a6d85809, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 5def6a46-9b6f-4dd8-b922-88fff458c96e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1E, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 5e774f1f-9cb9-4faa-986a-9af8cca17ba4, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1L, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 864eb1a6-05d0-481b-a7f8-f2ffb2194538, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP | 01-1A, server: jpa1softbank.fengwio.top, port: 30005, type: vless, uuid: 36bfd1f9-dcca-4a3f-b30b-db4c9e3bf5e2, tls: true, reality-opts: {public-key: fTZLGGyhk2ytzqhs7HoGEa2SUaDcJzqsv9YEC3kv2EM, short-id: a40646b3}, servername: www.cloudflare.com, client-fingerprint: edge, network: tcp, udp: true}
+  - {name: EK-APZ, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: de1e6113-024a-4e30-bc7d-ea429c2cad46, udp: true}
+  - {name: P6-GTX, server: empty.node, port: 443, type: trojan, password: 2a402e57-42b5-4c87-a064-62e0078d21d5, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1D, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 0bd89e1f-fd52-438e-a715-8676ccd76711, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: d2afc8ea-48a3-4f15-b150-0dfec6c7deff, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 试用节点-美国, server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 4da98651-c544-4375-ac60-c0485de6db32, udp: true}
+  - {name: MH-IKJ, server: empty.node, port: 443, type: trojan, password: 27471d9b-576a-4998-a7df-6057c0b618b9, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: e36bb5d6-87e3-41c0-a931-eb7cb15677a7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1G, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: dd1a50fc-018b-4236-bffc-bc5d6cd7fe69, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1M, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 5def6a46-9b6f-4dd8-b922-88fff458c96e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1J, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 73045621-42cc-47fd-8715-2b0c78c0f40f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 RU-ART, server: empty.node, port: 443, type: trojan, password: 428cff15-4015-428c-9e99-2ab57eb5db60, sni: empty.node, skip-cert-verify: false, udp: true}
