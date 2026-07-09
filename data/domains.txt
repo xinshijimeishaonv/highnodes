@@ -3913,3 +3913,8 @@ https://bajie.xyz/
 https://bajie.one/
 https://bajie.work/
 https://bbec.cc
+https://ftp.shougang-grand.com.hk/
+https://xboard.ryuuz.cn/
+https://imap.xmail.com.hk/
+https://smtp.xmail.com.hk/
+https://pop.xmail.com.hk/
