@@ -1,11 +1,10 @@
+https://api.ddgou.xyz
+https://api.jjz.best
+https://bnsss.cc
 https://www.louwangzhiyu.org
 https://dctcc.louwangzhiyu.shop
-https://api-xb.node2.top
 https://multiserver.multiserveradelshoop.com
-https://yywhale.com
-https://api.ddgou.xyz
-https://bnsss.cc
-https://simkey.cloud
 https://m.caihongmao.org
-https://api.jjz.best
-https://aigc24h.com
+https://simkey.cloud
+https://api-xb.node2.top
+https://yywhale.com
